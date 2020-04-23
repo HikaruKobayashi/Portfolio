@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -16,9 +16,34 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+        </a> */}
       </header>
+      <body>
+        <div className="punctuation">
+          <img src={`${process.env.PUBLIC_URL}/ubuntu.png`} className="docker-logo" />
+        </div>
+        <div className="punctuation">
+          <img src={`${process.env.PUBLIC_URL}/html.png`} className="docker-logo" />
+        </div>
+        <div className="punctuation">
+          <img src={`${process.env.PUBLIC_URL}/docker-logo.png`} className="docker-logo" />
+        </div>
+        <div className="punctuation">
+          <img src={`${process.env.PUBLIC_URL}/slack.svg`} className="docker-logo" />
+        </div>
+        <div className="punctuation">
+        <img src={`${process.env.PUBLIC_URL}/Octocat.png`} className="git-hub-logo" />
+        </div>
+        <div className="punctuation">
+          <img src={`${process.env.PUBLIC_URL}/aws.png`} className="docker-logo" />
+        </div>
+        <div className="punctuation">
+          <img src={logo} className="docker-logo" />
+        </div>
+        <div className="punctuation">
+          <img src={`${process.env.PUBLIC_URL}/rails.png`} className="docker-logo" />
+        </div>
+      </body>
     </div>
   );
 }
