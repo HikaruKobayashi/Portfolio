@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo, .docker-logo, .git-hub-logo {
@@ -14,7 +15,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -40,8 +40,12 @@
 .punctuation {
   width: 700px;
   height: 400px;
-  border: 3px solid #282c34;
+  border: 3px solid rgb(255, 255, 255);
   float: left;
   margin: 50px;
   border-radius: 2px;
+}
+
+.sub-title {
+  font-size: 80px;
 }
