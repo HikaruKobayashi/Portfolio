@@ -15,7 +15,8 @@
 }
 
 .swim-logo {
-  height: 90vmin;
+  width: 110%;
+  /* height: 80vmin; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -53,7 +54,7 @@
 
 .punctuation-left, .punctuation-right {
   width: 40%;
-  height: 400px;
+  height: 40vmin;
   border: 3px solid rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
   border-radius: 2px;
