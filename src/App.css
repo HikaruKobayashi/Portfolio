@@ -4,8 +4,13 @@
   font-family: 'Caveat', cursive;
 }
 
-.App-logo, .docker-logo, .git-hub-logo {
+.App-logo {
   height: 40vmin;
+  pointer-events: none;
+}
+
+.skill-logo {
+  height: 25vmin;
   pointer-events: none;
 }
 
@@ -42,21 +47,41 @@
   }
 }
 
-.punctuation {
-  width: 700px;
-  height: 400px;
-  border: 3px solid rgb(255, 255, 255);
-  float: left;
-  margin: 50px;
-  border-radius: 2px;
-}
-
 .sub-title {
   font-size: 80px;
 }
 
+.punctuation-left, .punctuation-right {
+  width: 40%;
+  height: 400px;
+  border: 3px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+}
+.swim-punctuation-left, .swim-punctuation-right {
+  width: 30%;
+}
+.punctuation-left {
+  margin: 0 0 40px 100px;
+  float: left;
+}
+.punctuation-right {
+  margin: 0 100px 40px 0;
+  float: right;
+}
+.swim-punctuation-left {
+  float: left;
+  margin: 100px 0 0 0;
+}
+.swim-punctuation-right {
+  float: right;
+  margin: 0 100px 0 0;
+}
+.skill-title {
+  color: rgb(0, 0, 0);
+}
+
 .fixed-bg {
-  height: 500vmin;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
