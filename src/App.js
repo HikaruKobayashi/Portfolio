@@ -2,13 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const stylee = {
-  width: '100%',
-  height: '40vmin',
-  backgroundImage: `url(${process.env.PUBLIC_URL}/starry-sky-2.jpg)`
-};
-
-const styleee = {
+const sky = {
   width: '100%',
   height: '60vmin',
   backgroundImage: `url(${process.env.PUBLIC_URL}/sky.jpg)`
@@ -23,9 +17,9 @@ function App() {
             <h2 className="sub-title">Hikaru Kobayashi</h2>
         </div>
 
-        <div className="fixed-bg bg01" style={ styleee }></div>
+        <div className="fixed-bg bg01" style={ sky }></div>
 
-        <div className="scroll-bg bg-color01">
+        <div className="content">
           <h2 className="sub-title">Who am I?</h2>
           <h3>History</h3>
             <p>1982         I was born in Nakano City, Nagano Prefecture.</p>
@@ -39,7 +33,7 @@ function App() {
             <p>Git Hub</p>
         </div>
 
-        <div className="scroll-bg bg-color01">
+        <div className="content">
           <h2 className="sub-title">Swimming</h2>
           <div className="swim-punctuation-left">
             <h3>Discipline</h3>
@@ -91,7 +85,7 @@ function App() {
           </div>
         </div>
 
-        <div className="scroll-bg bg-color01">
+        <div className="content">
           <h2 className="sub-title">Thank you for reading.</h2>
         </div>
       </header>

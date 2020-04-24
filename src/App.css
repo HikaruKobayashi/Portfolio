@@ -48,7 +48,7 @@
 }
 
 .sub-title {
-  font-size: 80px;
+  font-size: 90px;
 }
 
 .punctuation-left, .punctuation-right {
@@ -85,4 +85,8 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+}
+
+.content {
+  margin-bottom: 150px;
 }
