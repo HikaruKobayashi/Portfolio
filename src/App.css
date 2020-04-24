@@ -1,11 +1,16 @@
 .App {
   text-align: center;
   background-color: #282c34;
+  font-family: 'Caveat', cursive;
 }
 
 .App-logo, .docker-logo, .git-hub-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.swim-logo {
+  height: 90vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -48,4 +53,11 @@
 
 .sub-title {
   font-size: 80px;
+}
+
+.fixed-bg {
+  height: 500vmin;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
