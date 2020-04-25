@@ -75,11 +75,11 @@
 }
 .swim-punctuation-left {
   float: left;
-  margin: 100px 0 0 0;
+  margin: 100px 0 0 200px;
 }
 .swim-punctuation-right {
   float: right;
-  margin: 0 100px 0 0;
+  margin: 0 200px 0 0;
 }
 .skill-title {
   color: rgb(0, 0, 0);
