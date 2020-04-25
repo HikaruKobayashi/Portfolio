@@ -16,7 +16,10 @@
 
 .swim-logo {
   width: 110%;
-  /* height: 80vmin; */
+}
+
+.sns-icon {
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: no-preference) {

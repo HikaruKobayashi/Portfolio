@@ -29,9 +29,9 @@ function App() {
             <p>2014-2017    Nagano Nihon University High School</p>
             <p>2017-current Nihon University Faculty of Economics</p>
           <h3>Social Networking Service</h3>
-            <p>Twitter</p>
-            <p>Instagram</p>
-            <p>Git Hub</p>
+            <p>Twitter</p><i className="fa fa-twitter sns-icon"></i>
+            <p>Instagram</p><i className="fa fa-instagram sns-icon"></i>
+            <p>Git Hub</p><i className="fa fa-github sns-icon"></i>
         </div>
 
         <div className="content">
