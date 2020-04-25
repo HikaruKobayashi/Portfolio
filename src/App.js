@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import 'font-awesome/css/font-awesome.min.css'; 
+import 'font-awesome/css/font-awesome.min.css';
+import { circularLoading }  from '@yami_beta/react-circular-loading';
 
 const sky = {
   width: '100%',
@@ -9,10 +10,15 @@ const sky = {
   backgroundImage: `url(${process.env.PUBLIC_URL}/sky.jpg)`
 };
 
+const CircularLoading = circularLoading({
+  num: 12,
+});
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <CircularLoading />
         <div className="scroll-bg bg-color01">
             <img src={logo} className="App-logo" alt="logo" />
             <h2 className="sub-title">Hikaru Kobayashi</h2>
