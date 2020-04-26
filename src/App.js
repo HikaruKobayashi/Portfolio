@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CircularLoading />
+        {/* <CircularLoading /> */}
         <div className="scroll-bg bg-color01">
             <img src={logo} className="App-logo" alt="logo" />
             <h2 className="sub-title">Hikaru Kobayashi</h2>
